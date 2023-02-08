@@ -1,0 +1,38 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th#its-a-maze{
+    
+    padding: 5px;
+    color: white;
+    background-color: darkgoldenrod;
+    font-weight: normal;
+}
+
+#over-here{
+    border: 2px solid orangered;
+}
+
+#span-down{
+    padding: 5px;
+    width: 20%;
+}
+
+#maze-columns{
+    width: 20%;
+}
+
+#maze-image img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}

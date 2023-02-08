@@ -1,0 +1,29 @@
+header{
+    background-image: url('../images/banner-thom-bradley-unsplash.jpg');
+    height: 250px;
+    background-size: 100% 100%; 
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li{
+    line-height: 2em;
+    text-align: center;
+    width: 20%;
+    border: 1px solid orange;
+    float: left;
+}
+
+nav > ul > li > a{
+    display: block;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+    background-color: orange;
+    color: snow;
+}

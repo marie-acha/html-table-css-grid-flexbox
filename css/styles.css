@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: goldenrod;
+}
+
+body{
+    background-color: ivory;
+    width: 65%;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    font-family: Cambria;
+
+    background-image: url('../images/douglas_logo.jpg');
+    background-repeat: repeat-x;
+}
+
+header > h1{
+    position: relative;
+    top: 60px;
+    left: 20%;
+    color: white;
+}
+
+article{
+    float: left;
+    width: 100%;
+    padding: 20px 20px 10px;
+    margin: 0;
+}
+
+footer{
+    clear: both;
+    background-color: darkgoldenrod;
+    padding: 5px;
+    text-align: right;
+    font-style: italic;
+}
+
+section{
+    width: 100%;
+}
+
+

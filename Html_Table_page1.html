@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="8-utf">
+        <meta name="author" content="Marie Acha">
+        <title>CSIS 1280 Assignment 2</title>
+        <link href="css/navigation.css" rel="stylesheet">
+        <link href="css/table.css" rel="stylesheet">
+        <!--<link href="css/grid_MAc63065.css" rel="stylesheet">-->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>CSIS 1280</h1>
+            <h1>Assignment 2</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Html_Table_page1.html">Table Practice</a></li>
+                <li><a href="CSS_Grid_Flexbox_page2.html">Grid Practice</a></li>
+                <li><a href="https://www.douglascollege.ca/course/csis-1280" target="_blank">CSIS 1280</a></li>
+            </ul>
+        </nav>
+        <article>
+            <section id="maze-image">
+                <table>
+                    <tr>
+                        <td><img src="images/maze-dan-asaki-unsplash.jpg"></td>
+                    </tr>
+                </table>
+            </section>
+            <section id="table_maze">
+                <table>
+                    <colgroup>
+                        <col span="1">
+                        <col span="4" id="maze-columns"> 
+                    </colgroup>
+                    <tr>
+                        <td id="span-down" rowspan="5">You can span down</td>
+                    </tr>
+                    <tr>
+                        <th id="its-a-maze" colspan="4">It's a maze</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">You can span across</td>
+                        <td rowspan="3">Like a puzzle</td>
+                    </tr>
+                    <tr>
+                        <td id="over-here" rowspan="2">Over here</td>
+                        <td colspan="2">Is it this way?</td>
+                    </tr>
+                    <tr>
+                        <td>Where am I?</td>
+                        <td>Or that way?</td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        <footer>
+           <small>CSIS 1280 &copy; Marie Acha Fall 2022</small> 
+        </footer>
+    </body>
+</html>
